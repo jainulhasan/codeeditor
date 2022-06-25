@@ -36,13 +36,13 @@ const Home = () => {
     };
     return (
         <div className="homePageWrapper">
-            <div className="formWrapper">
-                <img
-                    className="homePageLogo"
-                    src="/code-sync.png"
-                    alt="code-sync-logo"
-                />
-                <h4 className="mainLabel">Paste invitation ROOM ID</h4>
+            <div className="formWrapper" >
+                <div style={{textAlign:'center'}}>
+                <h2>⭐ <b> Coding Nibbas</b> ⭐</h2>
+                </div>
+                <br/>
+                <br />
+                <h5 className="mainLabel">Enter invitation ROOM ID username</h5>
                 <div className="inputGroup">
                     <input
                         type="text"
